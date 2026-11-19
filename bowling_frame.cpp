@@ -12,6 +12,8 @@ Bowling_Frame::Bowling_Frame(int fnum)
 	spare_ = false;
 	frame_num_ = fnum;
 	frame_score_ = 0;
+	roll_one_ = false;
+	roll_two_ = false;
 
 	next_frame_ = NULL;
 	prev_frame_ = NULL;
